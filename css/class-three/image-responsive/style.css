@@ -1,0 +1,15 @@
+img,
+video,
+iframe {
+  /* must */
+    max-inline-size: 100%;
+  block-size: auto;
+
+  object-fit: contain;
+  /* object-fit: cover; */
+/* vary */
+  object-position: top center;
+  aspect-ratio: 2/1;
+}
+
+image

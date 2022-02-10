@@ -1,0 +1,14 @@
+/*css class power --> few inherit   */
+
+.small-title {
+  width: 130px;
+  height: 22px;
+  font-size: 12px;
+
+}
+.medium-title {
+  font-size: 16px;
+}
+.large-title {
+  font-size: 16px;
+}
