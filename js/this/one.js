@@ -4,7 +4,7 @@ let userDetails = {
     age: 221,
     designation: "i5",
     logo: "rail",
-    printDetails: function () { console.log(this) }
+    printDetails: function () { console.log(this.logo) }
 
 }
 userDetails.printDetails()
