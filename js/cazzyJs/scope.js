@@ -1,11 +1,17 @@
+// a value not found on their execution context ==> by lexical scope their acess the value of a 
 
-// let is not define in function b so by SCOPE CHAIN it acess 
-let a = 5;
+const a = 44
+const b = () => {
 
+    for (let i = 0; i < 3; i++) {
+        console.log(a)
 
-function b() {
-    console.log(a)
+    }
 
+    const c = () => {
+        console.log(a + " ")
+    }
+    c()
 }
-b()
 
+b()
