@@ -1,11 +1,10 @@
-// ? hof : a fuction which take function as argument or return function
 // ! y : high order function, x : callback function
 function x() {
-    console.log("first")
+    console.log("then runned callback function");
 }
 
 function y() {
-    console.log("---")
+    console.log("--- perform some logic")
 
     x()
 }

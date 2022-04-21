@@ -1,0 +1,1 @@
+// define once use it when need by different argument 

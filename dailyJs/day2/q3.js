@@ -1,9 +1,15 @@
-const smallLetter = 'my name is satyam'
+function toSentenceCase (sentence) {
+  let trimSentence = sentence.trim()
+  for (let i = 0; i < sentence.length; i++) {
+    if (trimSentence[i] === ' ') {
+      // console.log(  trimSentence[i + 1].toUpperCase() )
+      // FIXME:
+      trimSentence[i + 1] = 'A'
+      // trimSentence[i + 1].toUpperCase()
+      console.log(trimSentence)
+    }
+  }
+  return trimSentence
+}
 
-const makeFirstLetterCapital = str =>
-  str[0].toUpperCase() + str.slice(1).toLowerCase()
-
-const words = smallLetter
-  .split(' ')
-  .map(makeFirstLetterCapital)
-  .join(' ')
+console.log(toSentenceCase('we are neogramemer knight'))

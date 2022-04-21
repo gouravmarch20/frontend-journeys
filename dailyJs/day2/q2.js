@@ -1,13 +1,9 @@
-//
-const array = ['a', 'b', 'c', 'd', 'e', '']
-
-const getElementIndex = (array, key) => {
-  for (let index = 0; index < array.length; index++) {
-    if (array[index] === key) {
-      return index
+function indexOf(arr, value) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === value) {
+      return i
     }
   }
-  console.log('first')
   return -1
 }
-console.log(getElementIndex([1, 5, 6, 7, 3, 8, 7, 4]), 7)
+console.log(indexOf([3, 4, 5], 9))

@@ -17,7 +17,7 @@ class Parent extends GrandParent {
 }
 class Child extends GrandParent {
     constructor(name, weapon, color) {
-        super(name, weapon);
+        super(name, weapon);//! to get parent class data
         this.color = color
     }
     creatorFun(){
