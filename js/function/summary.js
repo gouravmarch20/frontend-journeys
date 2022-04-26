@@ -1,3 +1,4 @@
 // pillar of  function programing => curring , clorsure , callback , high order function 
 
-// ! curring : weak visulization
+//! arrow function : not get hosted 
+//! traditional function get hosted

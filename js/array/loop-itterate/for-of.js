@@ -1,7 +1,6 @@
-// ! aoo mai use
+// ! of : return value of array item during each itteration
 const array1 = ['a', 'b', 'c']
-const iterator = array1.keys()
 
-for (const key of iterator) {
-  console.log(key)
+for (const item of array1) {
+  console.log(item)
 }

@@ -3,10 +3,6 @@ let a = '33'
 console.log(typeof Number(a))
 console.log(typeof Number(true))
 
-// parseInt : decimal to without decimal
-// ! syntax
-let b = 3223.32
-console.log(parseInt(b))
 
 // isInteger => tell number of not ==> return boolean
 console.log(Number.isInteger('jj'))
