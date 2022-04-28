@@ -1,3 +1,7 @@
-// ?  join : return new array , convert array into string , 
-//all items joined to one and datatype become   string
-//! array to string datatype convert further only string methord will apply
+/*
+ - join : return new array , convert array into string  
+ 
+ //** During coverting array to string ==> , not removed it only remove when join have some case 
+ - in each item end add given case
+
+* */
