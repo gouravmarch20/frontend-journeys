@@ -1,5 +1,6 @@
-
 //? tell the output
+// l1 > await block rest even next code is async code
+
 function resolveAfter2Seconds () {
   console.log('this is slow promise')
   return new Promise(resolve => {

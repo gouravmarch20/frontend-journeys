@@ -1,5 +1,5 @@
 // - convert string into array
-
+// - break the string into an item on a give case , & given case also removed from that item 
 /*
  //** 3. note it also remove the given case 
  str.split(a) ==>

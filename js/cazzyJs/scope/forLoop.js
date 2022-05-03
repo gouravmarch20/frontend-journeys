@@ -6,6 +6,7 @@
 
  const arr = [1, 3 ]
 for (let i = 0; i < arr.length; ) {
+  
   i++ //? run each time code end & value asign to condition check ==> before it destored
 }
 console.log(i);//! let has now block scope each 

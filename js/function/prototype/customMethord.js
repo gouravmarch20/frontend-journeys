@@ -3,7 +3,6 @@ Date.prototype.lastYear = function () {
     return this.getFullYear() - 1;
 }
 console.log(new Date('2022-3-10').lastYear())
-// ! danger 
 Array.prototype.map = function () {
     let arr = []
     for (let i = 0; i < this.length; i++) {

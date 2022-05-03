@@ -1,4 +1,4 @@
-firstFunction()
+ firstFunction()
   .then(result => secondFunction(result))
   .then(newResult => thirdFunction(newResult))
   .then(finalResult => {

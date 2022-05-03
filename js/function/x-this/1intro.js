@@ -3,4 +3,4 @@
 // in tradition function point to function call object
 // ! too : paratical example
 
-https://www.youtube.com/watch?v=fzyJKOl-OPs&list=PLwGdqUZWnOp0VVqPVPA3ccqtjpLLPwtN8&index=29
+// https://www.youtube.com/watch?v=fzyJKOl-OPs&list=PLwGdqUZWnOp0VVqPVPA3ccqtjpLLPwtN8&index=29

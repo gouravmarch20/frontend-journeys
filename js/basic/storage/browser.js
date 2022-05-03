@@ -1,4 +1,4 @@
-// cookie , local & session  storage
+// ** cookie , local & session  storage
 //-> all store in browser user browser 
 
 //  cookie : 4kb => send to server 
