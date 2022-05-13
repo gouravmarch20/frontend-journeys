@@ -1,0 +1,1 @@
+// undefinded , NaN , null , "",`` , 0 , false ==> js consider as falsey value means in if case not run
