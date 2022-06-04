@@ -6,3 +6,4 @@
 
 //OBJECT LITERAL :  in nodejs widely use : key & value is name  same ==> then value varible we use onlyf
 // eg> const obj = {name : name}
+console.log(2 /10);
