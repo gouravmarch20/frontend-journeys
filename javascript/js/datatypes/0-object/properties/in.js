@@ -3,6 +3,7 @@ const obj = {
   name: 'gitman',
   classwa: 5
 }
-console.log('name' in obj);
-console.log('fsda' in obj);
-console.log('valueOf' in obj);//** proto inherit 
+console.log('name' in obj)
+console.log('fsda' in obj)
+console.log('valueOf' in obj) //** proto inherit
+console.log('toLocaleString' in obj) //** proto inherit

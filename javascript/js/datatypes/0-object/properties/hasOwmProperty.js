@@ -10,6 +10,5 @@ const obj = {
 console.log(obj.hasOwnProperty('name'));
 console.log(obj.hasOwnProperty('fda'));
 console.log(obj.hasOwnProperty('fun1') , '--------- metord ---');
-console.log('valueOf' in obj);//** proto inherit 
 // --- dynamic key
 console.log(obj.hasOwnProperty(['classwa']));

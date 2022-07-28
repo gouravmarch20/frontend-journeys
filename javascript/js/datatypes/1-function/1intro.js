@@ -41,10 +41,20 @@ const square = num => num * num
 const displaySquare = fn => {
   console.log('hello ', fn(43))
 }
-displaySquare(square)
-// 9.
-(
+displaySquare(square)(
+  // 9.
   function fun9 (num) {
     console.log(num * num)
   }
 )()
+// function as varible with tradional function
+//  ** tradition function with function name
+const loggedWord = function firstWords (words) {
+  console.log(words)
+}
+loggedWord('hitman')
+//  ** tradition function without function name
+const loggedWor = function (words) {
+  console.log(words)
+}
+loggedWor('hitman')

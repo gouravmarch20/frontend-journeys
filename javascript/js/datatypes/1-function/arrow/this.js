@@ -6,7 +6,7 @@ let user = {
     console.log(this.username)
   },
   p2: () => {
-    console.log(this.username)//! where the arrow function is defined  ==> here point to global object --> this will lexical scope to it so it point to that object
+    console.log(this.username)// arrow function no ec    ==> here point to global object --> this will lexical scope to it so it point to that object
   }
 }
 user.p1()
