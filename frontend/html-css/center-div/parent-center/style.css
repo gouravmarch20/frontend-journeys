@@ -1,0 +1,23 @@
+
+.parent {
+   width: 100px;
+   height: 100px;
+   background-color: lightcoral;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   margin: auto;
+   padding: 4rem;
+   text-align: center;
+border-radius: 2rem;
+}
+
+.child {
+   background-color: lightseagreen;
+   padding: 1rem 0rem;
+   border-radius: 1rem;
+
+
+}

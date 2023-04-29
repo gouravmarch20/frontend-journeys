@@ -7,7 +7,7 @@ const developerOne = {
     return 30;
   },
 };
- 
+
 let devTwo = _.cloneDeep(developerOne);
-devTwo.skills.city = 'lundon'
-console.log(devTwo)
+devTwo.skills.city = "lundon";
+console.log(devTwo);

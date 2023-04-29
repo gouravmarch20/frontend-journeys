@@ -17,15 +17,15 @@
 
 
 */
-var hisName = 'bill acmana'
-var myName = 'gourav'
+var hisName = "bill acmana";
+var myName = "gourav";
 const tellName = () => {
-  console.log(hisName)
+  console.log(hisName);
 
-  console.log(myName)
-  var myName = 'gitman  - gohan '
+  console.log(myName);
+  var myName = "gitman  - gohan ";
 
-  console.log(myName)
-}
-console.log(myName)
-tellName()
+  console.log(myName);
+};
+console.log(myName);
+tellName();
