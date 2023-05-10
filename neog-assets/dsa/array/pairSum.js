@@ -1,1 +1,0 @@
-// find pair who some is same

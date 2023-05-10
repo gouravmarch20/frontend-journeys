@@ -1,1 +1,0 @@
-// return max char apper in a string
