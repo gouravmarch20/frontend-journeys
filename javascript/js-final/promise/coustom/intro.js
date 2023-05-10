@@ -1,1 +1,0 @@
-//  here we create promise & resolve that promise ==> that is called coustom way of promise 
