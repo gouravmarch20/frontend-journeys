@@ -1,1 +1,0 @@
-var prefixOne = 'from another file' 

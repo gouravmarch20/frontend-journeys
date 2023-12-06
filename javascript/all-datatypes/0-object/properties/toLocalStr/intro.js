@@ -1,1 +1,0 @@
-// an object default proto method 
