@@ -1,0 +1,14 @@
+article {
+  width: 100%;
+  min-height: 100vh;
+
+  display: grid;
+}
+
+div {
+  width: 200px;
+  background: yellow;
+  height: 100px;
+  place-self: center;
+  /* sortHand of  justify-self (horizontal) and align-self (vertical) properties. */
+}

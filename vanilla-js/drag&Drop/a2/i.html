@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Drag</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: flex-start;
+      position: relative; /* Add position relative to the container */
+    }
+    .element {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 5px;
+      position: absolute; /* Set position to absolute */
+      cursor: grab; /
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="element" style="background-color: red"></div>
+    <div class="element" style="background-color: yellow"></div>
+    <div class="element" style="background-color: green"></div>
+    <div class="element" style="background-color: blue"></div>
+  </div>
+  <script>
+    // Get all elements with the class 'element'
+    const elements = document.querySelectorAll(".element");
+
+    elements.forEach((element) => {
+      let isDragging = false;
+      let initialX, initialY;
+      let currentX, currentY;
+
+      element.addEventListener("mousedown", (e) => {
+        isDragging = true;
+        // Get initial mouse position
+        initialX = e.clientX - element.getBoundingClientRect().left;
+        initialY = e.clientY - element.getBoundingClientRect().top;
+        element.style.cursor = "grabbing"; // Change cursor on drag start
+      });
+
+      document.addEventListener("mousemove", (e) => {
+        if (!isDragging) return;
+        e.preventDefault();
+
+        // Calculate the new element position
+        currentX = e.clientX - initialX;
+        currentY = e.clientY - initialY;
+
+        // Set the new element position
+        element.style.left = currentX + "px";
+        element.style.top = currentY + "px";
+      });
+
+      document.addEventListener("mouseup", () => {
+        if (isDragging) {
+          isDragging = false;
+          element.style.cursor = "grab"; // Reset cursor on drag end
+        }
+      });
+    });
+  </script>
+</body>
+</html>
